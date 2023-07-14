@@ -1,0 +1,276 @@
+/*
+THEME NAME:Layers
+THEME URI:http://jaipandya.com/themes
+DESCRIPTION:Give your eyes a soothing treat with this excuisite combo of greaceful black, orange tints and shades. Comes packed with features like options page, multiple skin selection and update notifier.
+VERSION:1.1.2
+AUTHOR:Jai Pandya
+AUTHOR URI: http://jaipandya.com
+TAGS: dark, brown, yellow, black, orange, microformats
+LICENSE: GNU General Public License v2 or later
+LICENSE URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+
+/*******************************
+********************************
+Global element selectors
+********************************
+*******************************/
+
+html{color:#999;background:#313031;}
+a{color:#ffffff;text-decoration:none;}
+a:hover{color:#daa520};
+abbr,acronym{border-bottom:1px dotted #666666;font-variant:normal;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+blockquote{border:1px solid #666666;background: 5px 5px url(images/quotes.jpg) #252525 no-repeat;}
+body{font:13px/1.231 'trebuchet ms',arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+body{color:#999999;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+caption,th{text-align:left;}
+code{border:1px solid #cccccc;padding:10px;margin:10px 0px;display:block;background:#252525;}
+div{position:relative;}
+div.message{float:left;width:49%;padding:2px;text-align:center;position:relative;}
+div.message textarea{border:1px solid #C8A767;width:90%;color:#f3ecdb;background:#8b8b8b none repeat scroll 0% 0%;height:107px;}
+em{font-style:italic;}
+fieldset,img{border:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+h1{color:#d2d2d2;font-size:150%;}
+h2{color:#c9c9c9;font-size:130%;}
+h3{color:#c4c4c4;font-size:110%;}
+img.alignright,img.alignleft{margin:10px 20px;padding:4px;display:inline;}
+input,textarea,select{font:inherit inherit inherit;}
+/*to enable resizing for IE*/
+input,textarea,select{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend{color:#000;}
+li{list-style:none;}
+ol.comments a{color:#E13768;}
+pre,code,kbd,samp,tt{font-family:monospace;line-height:100%;*font-size:108%;}
+q:before,q:after{content:'';}
+sub{vertical-align:text-bottom;}
+sup{vertical-align:text-top;}
+table{border-collapse:collapse;border-spacing:0;}
+table{font-size:inherit;font:100%;}
+
+
+/*******************************
+********************************
+Class Selectors
+********************************
+*******************************/
+
+
+.alignleft{float:left;}
+.alignright{float:right;}
+.center{margin:0pt auto;/*width:980px;*//*Set it at width 980 px to get fixed layout optimized for 1024 X 768 Pixel Resolution*/}
+.clear{clear:both;}
+.float-left{float:left;padding:20px;}
+.float-right{float:right;padding:20px;}
+.details p a{color:#666;}
+.input{float:left;width:49%;position:relative;} /* Used for comment form */
+.input input{border:1px solid #c8a767;margin-bottom:5px;padding:2px;width:99%;color:#f3ecdb;background:#8b8b8b none repeat scroll 0% 0%;position:relative;display:block;}/*opera cries without the display being block!*/
+.wp-smiley{margin:0px !important; padding-bottom:0px !important; } /* Control margin and padding with smileys */
+.avatar {float:left !important ;margin:5px 0px !important;padding:0px 10px 5px 0px !important;} /*Gravatar display with comments*/
+.sticky{ border: 1px solid grey; }
+.bypostauthor, .gallery-caption{ font-size: 11px; }
+
+/*******************************
+********************************
+ID selectors
+********************************
+*******************************/
+
+
+
+/*****************************************
+Style declarations for wrapper Block
+*****************************************/
+
+
+#wrapper{background:#101110;min-width:980px;width:expression(document.body.clientWidth < 980? "980px": "auto") ;}
+/*min-width is for standard compliant browser while width serves for the poor internet explorer to keep it in good health*/
+
+
+/*****************************************
+Style declarations for header Block
+*****************************************/
+
+
+#header{background:#3f3e3f url(images/headerBackground.png) repeat-x;height:216px;}
+#headerTop{color:#FFFFFF;font-family:'century gothic','arial narrow',arial,sans-serif;position:absolute;top:48px;left:30px;}
+#headerTop h1{display:inline;font-size:4.6em;}
+#headerTop h2{padding-left:10px;display:inline;color:#b4b4b4;font-size:2em;}
+
+
+/*****************************************
+Style declarations for navigation Block
+*****************************************/
+
+#navigation{padding-top:15px;padding-bottom:11px;font-size:16px;top:170px;}
+#navigation li a{padding:15px 30px 11px;color:#000000;font-weight:bold;text-decoration:none;}
+#navigation li a:hover{padding:15px 30px 12px;color:#aeacac;background:#202121 url(images/buttonBackground.png) repeat-x;text-decoration:none;}
+#navigation ul li{display:inline;text-transform:uppercase;}
+
+
+
+/*****************************************
+Style declarations for content Block
+*****************************************/
+
+
+#content{}
+
+
+/*****************************************
+Style declarations for primary Block
+*****************************************/
+
+
+#primary{width:100%;background:#101110 url(images/primaryBackground.png) repeat-x;min-height:487px;height:100%;}
+
+
+/*****************************************
+Style declarations for main Block
+*****************************************/
+
+
+#main h1,#main h2,#main h3,#main h4,#main h5,#main h6,#main ul,#main ol,#main dl,#main blockquote{margin:15px 30px;} /*main global styles*/
+#main{margin:0px 345px 0px 0px;padding:20px;font-family:"Lucida Grande","Lucida Sans Unicode",verdana,geneva,sans-serif;}
+#main .commentlist p{margin:0pt;padding:5px 0pt;}
+#main .details{border:1px solid #2d2d2d;padding:2px 5px;margin:10px 10px 50px 25px;color:#ccc;background:#313131;clear:left;}
+#main .nocomments{border:1px solid #2d2d2d;padding:2px 5px;margin:10px 10px 50px 25px;color:#ccc;background:#313131;}
+#main a{color:#fff;font-weight:bold;text-decoration:none;}
+#main a:hover{color:#DAA520;}
+#main div.date{margin:15px 20px 15px 0px;padding:0pt;font-size:70%;font-weight:bold;letter-spacing:10px;}
+#main .author{font-weight:bold;letter-spacing:3px;}
+#main dl dd{padding:10px 0px 10px 10px;}
+#main dl dt{padding:10px 0px;font-weight:bold;}
+#main h1{margin:15px 20px 15px 0px; font-size:180%;}
+#main h1 a{border-bottom:2px solid #222;}
+#main h1 a:hover{border-bottom:2px solid #daa520;color:#fff;}
+#main h2{margin:15px 20px 15px 0px;color:#fff;font-size:170%;}
+#main h3{color:#fff;font:130% "Trebuchet MS";}
+#main .hilight{background:#313131 none repeat scroll 0 0;color:#CCCCCC;border:1px solid #AAAAAA;padding:10px;}
+#main ol li{margin:10px 0 10px 25px;list-style-type:decimal;font-family:"Trebuchet MS","Sans Serif";line-height:22px;}
+#main ol.comments{margin:10px 0 10px 25px;}
+#main p{margin:15px 30px;padding:5px 5px;/*font-size:100%;*/line-height:2.2em;}
+/* #main p img{margin:10px 20px;} */
+#main p.user{border-bottom:1px solid #2a2a2a;padding-left:10px;background:#303030;}
+#main pre{margin:15px 30px;padding:10px;background:#393939;}
+#main strong{color:#aaaaaa;font-weight:bold;}
+#main table{margin:30px 30px;}
+#main ul li,#main ol ul li{margin:10px 10px 10px 15px;padding:0 0 0 20px;list-style-type:disc;}
+#main img{margin:15px 30px; padding:5px;}
+#main a img{border:1px solid #000000;}
+#main .wp-caption {border: 1px solid #666666; text-align: center;color:#000000; background-color: #dddddd; padding-top: 4px; margin-top: 10px; margin-bottom:10px; margin-left:30px; margin-right: 20px;
+		/* optional rounded corners for browsers that support it */
+   		-moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+#main .wp-caption img {margin: 0; padding: 0; border: 0 none;}
+#main .wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+#main .aligncenter,#main div.aligncenter {display: block; margin-left: auto; margin-right: auto;} /*It should come after .wp-caption */
+
+
+/*****************************************
+Style declarations for sidebar Block
+*****************************************/
+
+
+#sidebar{float:right;margin:0px 0px 0px 0px;width:300px;padding:30px 25px 30px 20px;color:#9b9b9a;line-height:170%;}
+#sidebar a{color:#dddddd;font-weight:bold;text-decoration:none;}
+#sidebar h1{padding:15px 0px;color:#fff;font:170% "Trebuchet MS";}
+#sidebar h2,#sidebar h3{padding:10px 0px;color:#fff;font:150% "Trebuchet MS";}
+#sidebar p.news{clear:right;border-bottom:1px solid #3a3a3a;padding-bottom:20px;}
+#sidebar ul{margin-left:10px;}
+#sidebar a:hover{border-bottom:1px solid #daa520;}
+
+/*****************************************
+Style declarations for calendar Block
+*****************************************/
+
+/*sidebar widget*/
+
+#wp-calendar{color:#ccc;font-size:.9em;}
+#wp-calendar caption{font-weight:bold;color:#ffffff;text-align:center;margin-top:4px;}
+#wp-calendar th{font-weight:bold;color:#fff;padding:0 7px;margin-top:3px;background-color:#333;}
+#wp-calendar a{font-weight:bold;color:#fff}
+
+/*footer widget*/
+
+.block #wp-calendar{margin:10px auto;color:#ccc;}
+.block #wp-calendar caption{font-weight:bold;color:#ffffff;text-align:center;margin-bottom:10px;}
+.block #wp-calendar th{font-weight:bold;color:#fff;padding:5px;}
+.block #wp-calendar a{font-weight:bold;color:#fff}
+
+/*****************************************
+Style declarations for submit Block
+*****************************************/
+
+
+#submit{border:none;margin-top:10px;color:#f3ecdb;background:#816429;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;}
+#submit:hover{border:1px solid white;}
+#submitButton{clear:both;margin:10px auto;}
+
+
+/*********************************************
+Style declarations for searchform Block
+*********************************************/
+
+
+#searchform #s{border:1px solid #C8A767;padding:2px;background:#8B8B8B none repeat scroll 0% 0%;color:#F3ECDB;position:relative;}
+#searchform #s:hover{border:1px solid #C8A767;padding:2px;background:#5a5a5a none repeat scroll 0% 0%;color:#F3ECDB;position:relative;}
+#searchform #searchsubmit{border:none;margin-top:10px;display:block;color:#f3ecdb;background:#816429;font-family:'century gothic','arial narrow',arial,sans-serif;}
+#searchform div{padding-left:10px;}
+
+
+/*****************************************
+Style declarations for secondary Block
+*****************************************/
+
+
+#secondary{float:left;width:100%;padding:30px 0px;background:#7d5601 url(images/secondaryBackground.png) repeat-x;}
+#secondaryContent{padding:0px 0px;}
+#secondaryContent .block{float:left;margin:0px 12px 25px;padding:1% 1%;width:28%;border:1px solid #000000;background:#5e4101;text-align:center;}
+#secondaryContent .block a{text-decoration:none;}
+#secondaryContent .block h1{padding:5px 0px;font-size:170%;}
+#secondaryContent .block h2{padding:5px 0px;font-size:130%;}
+#secondaryContent .block h3{padding:5px 0px;font-size:130%;}
+#secondaryContent .block ul{padding:10px 0px;}
+
+
+
+/*****************************************
+Style declarations for footer Block
+*****************************************/
+
+
+
+#footer{background:#313031 url(images/footerBackground.png) repeat-x;height:100%;min-height:50px;}
+#footer p{text-align:center;margin:0px;padding:15px;color:#AAAAAA;font:normal normal normal 100%/1.6em "Lucida Grande","Lucida Sans Unicode",verdana,geneva,sans-serif;font-size-adjust:none;}
+#footer p a{color:white;font-weight:bold;text-decoration:none;}
+#footer p span{color:white;}
+
+
+
+
+/***********************************************
+Style declarations for response (comment) Block
+***********************************************/
+
+
+#response{margin:10px 10px 50px 25px;padding:2px 5px;font-size:85%;height:200px;}
+#response #commentform{margin:10px 0px 10px 0px;}
+#response h3{margin:15px 0pt;}
+
+
+
+
+/*
+This file uses reset and font css codes -- which are both copyright material written as under
+Copyright (c) 2008,Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version:2.5.2
+*/
